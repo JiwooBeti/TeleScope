@@ -21,13 +21,6 @@ public class Elevator extends SubsystemBase {
         this.encoderTwo = encoderTwo;
     }
 
-    private int a;
-
-    public static int add(int a, int b) {
-        int sum = a+b;
-        return sum;
-    }
-
     public void moveElevator(double leftSpeed, double rightSpeed) {
 
         this.leftSpeed = leftSpeed;
